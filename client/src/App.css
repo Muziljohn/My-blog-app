@@ -1,0 +1,62 @@
+.body{
+  background-color: azure;
+}
+.App{
+  
+  max-width: 70%;
+  margin: 0 auto;
+  margin-top: 10px;
+
+}
+.header{
+  display: flex;
+  justify-content: space-between
+}
+.logo{
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  
+}
+.Link{
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  font-weight: 400;
+}
+nav>a:hover{
+  color: tomato
+}
+img{
+  height: 300px;
+  width: 350px;
+  object-fit: contain;
+  
+}
+
+.content{
+  display: flex;
+  margin-bottom: 1px;
+  
+  
+}
+.details{
+  padding-left:10px;
+
+
+}
+
+.author>time{
+  color: rgb(68, 65, 65);
+  font-weight: 500;
+  font-size: .9rem;
+}
+.summary{
+  color:#333
+}
+.inputStyle{
+  padding: 10px;
+  margin: 1.5px;
+  outline: none;
+}
